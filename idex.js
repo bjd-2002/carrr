@@ -3,9 +3,9 @@ const startScreen = document.querySelector('.startScreen');
 const gameArea = document.querySelector('.gameArea');
 const hi_score = document.querySelector('#hiscoreBox');
 
-const gameOverSound = new Audio('music/gameover.mp3');
-const moveSound = new Audio('music/move.mp3');
-const musicSound = new Audio('music/music.mp3');
+const gameOverSound = new Audio('gameover.mp3');
+const moveSound = new Audio('move.mp3');
+const musicSound = new Audio('music.mp3');
 console.log(gameArea);
 
 startScreen.addEventListener('click',start);
